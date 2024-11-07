@@ -1,0 +1,33 @@
+//custom variables
+
+$primary:#000000;
+
+//import the functions and variables
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$custom-theme-color:
+(
+    "back":#F9F9F9,
+    "altdark":#353535,
+    "blackk":#211C24,
+    "white" : #fff,
+    "gray":#EDEDED,
+    "lightgray":#FAFAFA,
+    "lighttttt":#EAEAEA,
+    "footertext":#CFCFCF,
+    "color1":#781DBC,
+    "color2":#E10000,
+    "color3":#E1B000,
+    "color4":#E8E8E8,
+    "backkk":#F4F4F4,
+    "para":#6C6C6C,
+    "tes": #FFB547,
+    "add":#F6F6F6,
+    "chectext": #A2A3B1
+);
+
+$theme-colors: map-merge($custom-theme-color , $theme-colors );
+//import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap'; 
